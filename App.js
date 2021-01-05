@@ -16,7 +16,7 @@ export default function App() {
     <View style={styles.container}>
       <View style={styles.header} >
         <Text style={styles.headerText}>
-          Hello World
+          Hello World!
           </Text>
 
         <Text style={styles.mediumHeaderText}>
@@ -24,6 +24,7 @@ export default function App() {
           </Text>
 
         <Text style={styles.lowerHeaderText}>
+          This is a paragraph explaining what this app is all about. As you can see there are already many components including text, images and buttons.
           This is a app made by a student in Mobile app developer program on STI in Stockholm
           </Text>
       </View>
@@ -39,7 +40,7 @@ export default function App() {
         onChangeText={handleChangeText} />
 
       <Text style={styles.questionsText}>
-        An emoji describing how you are feeling about the course:
+        An emoji describing how you are feeling about this course:
         </Text>
 
       <Image style={styles.imageStyle}
